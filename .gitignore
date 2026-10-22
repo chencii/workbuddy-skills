@@ -1,0 +1,21 @@
+# 依赖与环境产物（本地保留，不进仓库）
+.venv/
+venv/
+env/
+node_modules/
+.deps/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+.DS_Store
+
+# B 站 Cookie（含登录态，绝对禁止入库）
+.cookie
+*.cookie
+bili_cookie.txt
+**/bili_cookie.txt
+
+# 评论导出等本地数据产物
+**/exports/
+**/output/
